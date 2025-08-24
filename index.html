@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlaces Alternativos de Inled</title>
+    <meta name="description" content="Dada la situación distópica de bloqueos a Cloudflare nuestros servicios pueden no estar disponibles en sus URL originales. Listado de URLs alternativas">
+    <meta name="keywords" content="Inled, enlaces alternativos, URL, Github, Vercel, Cloudflare, bloqueo, acceso, servicios online">
+    <meta name="author" content="Inled Group">
+    <meta name="publisher" content="Inled Group">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://bloqueoscloudflare-inled.vercel.app/">
+    <link rel="icon" href="https://inled-group.github.io/favicon.svg" type="image/x-icon">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bloqueoscloudflare-inled.vercel.app/">
+    <meta property="og:title" content="Enlaces Alternativos de Inled - Contra los bloqueos a Cloudflare">
+    <meta property="og:description" content="Si no puedes acceder a webs de Inled Group, mira estas alternativas">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://bloqueoscloudflare-inled.vercel.app/">
+    <meta property="twitter:title" content="Enlaces Alternativos de Inled - Contra los bloqueos a Cloudflare">
+    <meta property="twitter:description" content="Si no puedes acceder a webs de Inled Group, mira estas alternativas.">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            margin: 0;
+            padding: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px; /* Aumentado para acomodar más columnas */
+            background-color: #ffffff;
+            padding: 1.5rem;
+            border-radius: 2rem;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        .title {
+            font-size: 2rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 2rem;
+            color: #374151;
+        }
+        
+        .disclaimer {
+            background-color: #fef3c7;
+            border-left: 4px solid #f59e0b;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 0.5rem;
+            color: #78350f;
+            line-height: 1.5;
+        }
+
+        .columns-header {
+            display: grid;
+            grid-template-columns: 1fr 2fr 2fr 2fr; /* Añadida la cuarta columna */
+            gap: 1rem;
+            font-weight: 600;
+            color: #6b7280;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #e5e7eb;
+            text-align: center;
+        }
+        
+        .columns-container {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .row {
+            display: grid;
+            grid-template-columns: 1fr 2fr 2fr 2fr; /* Añadida la cuarta columna */
+            gap: 1rem;
+            align-items: center;
+            padding: 1rem;
+            border-radius: 0.75rem;
+            transition: background-color 0.2s ease-in-out;
+        }
+
+        .row:nth-child(odd) {
+            background-color: #f9fafb;
+        }
+
+        .row:hover {
+            background-color: #f3f4f6;
+        }
+
+        .icon-col {
+            display: flex;
+            justify-content: center;
+        }
+
+        .text-col {
+            text-align: center;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            color: #4b5563;
+        }
+        
+        .text-col a {
+            color: #2563eb;
+            text-decoration: none;
+            transition: color 0.2s ease-in-out;
+        }
+        
+        .text-col a:hover {
+            color: #1e40af;
+        }
+
+        .icon-svg {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+
+        /* Colores de los iconos */
+        .icon-blue { color: #3b82f6; }
+        .icon-green { color: #22c55e; }
+        .icon-purple { color: #a855f7; }
+        .icon-red { color: #ef4444; }
+        .icon-yellow { color: #eab308; }
+        .icon-pink { color: #ec4899; }
+        .icon-indigo { color: #6366f1; }
+        .icon-teal { color: #14b8a6; }
+        .icon-gray { color: #6b7280; }
+        .icon-orange { color: #f97316; }
+
+        @media (max-width: 640px) {
+            .columns-header, .row {
+                grid-template-columns: 1fr 1fr 1fr; /* 3 columnas de texto */
+            }
+            .columns-header div:nth-child(1), .row .icon-col {
+                display: none;
+            }
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Enlaces Alternativos de Inled - Acceso Garantizado",
+      "description": "Encuentra aquí los enlaces alternativos para acceder a los servicios de Inled sin interrupciones. Si la URL principal no funciona, prueba nuestras URLs de Github y Vercel.",
+      "url": "https://inled.es/alternativas",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Inled Group",
+        "url": "https://inled.es",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://inled.es/logo.png"
+        }
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "name": "Lista de Enlaces Alternativos de Inled",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "WebSite",
+              "name": "Inled.es",
+              "url": "https://inled.es"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "WebSite",
+              "name": "Inled en Github",
+              "url": "https://inled-group.github.io"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "WebSite",
+              "name": "Inled en Vercel",
+              "url": "https://inled.vercel.app/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+              "@type": "WebSite",
+              "name": "Start Inled",
+              "url": "https://start.inled.es"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "item": {
+              "@type": "WebSite",
+              "name": "Start Inled en Github",
+              "url": "https://inled-group.github.io/start/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "item": {
+              "@type": "WebSite",
+              "name": "Start Inled en Vercel",
+              "url": "https://start-inled.vercel.app/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "item": {
+                "@type": "WebSite",
+                "name": "Insuite Inled",
+                "url": "https://insuite.inled.es"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "item": {
+                "@type": "WebSite",
+                "name": "Insuite Inled en Vercel",
+                "url": "https://insuite.vercel.app/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "item": {
+                "@type": "WebSite",
+                "name": "Mdpdf Inled",
+                "url": "https://mdpdf.inled.es/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "item": {
+                "@type": "WebSite",
+                "name": "Mdpdf Inled en Github",
+                "url": "https://inled-group.github.io/mdpdf/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "item": {
+                "@type": "WebSite",
+                "name": "Mdpdf Inled en Vercel",
+                "url": "https://mdpdf.vercel.app/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 12,
+            "item": {
+                "@type": "WebSite",
+                "name": "Indoc Inled",
+                "url": "https://indoc.inled.es/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 13,
+            "item": {
+                "@type": "WebSite",
+                "name": "Indoc Inled en Github",
+                "url": "https://inled-group.github.io/indoc/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 14,
+            "item": {
+                "@type": "WebSite",
+                "name": "Indoc Inled en Vercel",
+                "url": "https://indoc-inled.vercel.app/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 15,
+            "item": {
+                "@type": "WebSite",
+                "name": "Inmd Inled",
+                "url": "https://inmd.inled.es/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 16,
+            "item": {
+                "@type": "WebSite",
+                "name": "Inmd Inled en Github",
+                "url": "https://inled-group.github.io/inmd/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 17,
+            "item": {
+                "@type": "WebSite",
+                "name": "Inmd Inled en Vercel",
+                "url": "https://inmd.vercel.app/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 18,
+            "item": {
+                "@type": "WebSite",
+                "name": "Inlinked Inled",
+                "url": "https://inlinked.inled.es/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 19,
+            "item": {
+                "@type": "WebSite",
+                "name": "Inlinked Inled en Github",
+                "url": "https://inled-group.github.io/inlinked/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 20,
+            "item": {
+                "@type": "WebSite",
+                "name": "Inlinked Inled en Vercel",
+                "url": "https://inlinked.vercel.app/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 21,
+            "item": {
+                "@type": "WebSite",
+                "name": "Inqr Inled",
+                "url": "https://inqr.inled.es/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 22,
+            "item": {
+                "@type": "WebSite",
+                "name": "Inqr Inled en Github",
+                "url": "https://inled-group.github.io/inqr/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 23,
+            "item": {
+                "@type": "WebSite",
+                "name": "Inqr Inled en Vercel",
+                "url": "https://inqr.vercel.app/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 24,
+            "item": {
+                "@type": "WebSite",
+                "name": "Inpdf Inled",
+                "url": "https://inpdf.inled.es/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 25,
+            "item": {
+                "@type": "WebSite",
+                "name": "Inpdf Inled en Vercel",
+                "url": "https://inpdf.vercel.app/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 26,
+            "item": {
+                "@type": "WebSite",
+                "name": "Devreka Inled",
+                "url": "http://devreka.inled.es/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 27,
+            "item": {
+                "@type": "WebSite",
+                "name": "Devreka Inled en Vercel",
+                "url": "https://devreka.vercel.app/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 28,
+            "item": {
+                "@type": "WebSite",
+                "name": "Matrix WWW Inled",
+                "url": "https://matrix-www.inled.es/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 29,
+            "item": {
+                "@type": "WebSite",
+                "name": "Matrix WWW Inled en Github",
+                "url": "https://inled-group.github.io/matrixwww/"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 30,
+            "item": {
+                "@type": "WebSite",
+                "name": "Matrix WWW Inled en Vercel",
+                "url": "https://matrixwww.vercel.app/"
+            }
+          }
+        ]
+      }
+    }
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="title">Enlaces alternativos Inled</h1>
+        
+        <div class="disclaimer">
+            <p>
+                Debido a los bloqueos masivos a la infraestructura de Cloudflare <a href="https://hayahora.futbol">cada vez que hay fútbol</a> es posible que no puedas acceder a los servicios de Inled.</p>
+            <p>Es por ello que, como no alojamos contenido pirata, tenemos derecho a continuar en internet y por tanto, si no te funciona la URL principal puedes probar con estas URL alternativas.</p>
+            <p>Nuestro único propósito es ofrecerte la mayor calidad de nuestros servicios y una disponiblidad del 99%</p>
+            <p>Si quieres conocer más acerca de los bloqueos a Cloudflare puedes ver <a href="https://youtu.be/dUTOZk8Vlyg?si=lvyjcCDrr3sKKGtK">este vídeo de Carlos Cordero</a> o <a href="https://youtu.be/RG8f4H8XYBU?si=0e522doK_y_Qm_i9">este de Midudev</a></p>
+        </div>
+
+        <div class="columns-header">
+            <div>Icono</div>
+            <div>URL Original</div>
+            <div>URL Github</div>
+            <div>URL Vercel</div>
+        </div>
+
+        <div class="columns-container">
+            <!-- Fila de ejemplo (puedes duplicar esta 10 veces) -->
+            <div class="row">
+                <div class="icon-col">
+                    <img src="https://inled-group.github.io/favicon.svg" class="icon-svg">
+                </div>
+                <div class="text-col">
+                    <a href="https://inled.es">https://inled.es</a>
+                </div>
+                <div class="text-col">
+                    <a href="https://inled-group.github.io">https://inled-group.github.io</a>
+                </div>
+                <div class="text-col">
+                    <a href="https://inled.vercel.app/">https://inled.vercel.app/</a>
+                </div>
+            </div>
+
+            <!-- 9 filas más para completar las 10 -->
+            <div class="row">
+                <div class="icon-col">
+                    <img src="https://inled-group.github.io/start/favicon.ico" class="icon-svg">
+                </div>
+                <div class="text-col">
+                    <a href="https://start.inled.es">https://start.inled.es</a>
+                </div>
+                <div class="text-col">
+                    <a href="https://inled-group.github.io/start/">https://inled-group.github.io/start/</a>
+                </div>
+                <div class="text-col">
+                    <a href="https://start-inled.vercel.app/">https://start-inled.vercel.app/</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="icon-col">
+                    <img src="https://insuite.inled.es/favicon.svg" class="icon-svg">
+                </div>
+                <div class="text-col">
+                    <a href="https://insuite.inled.es">https://insuite.inled.es</a>
+                </div>
+                <div class="text-col">
+                    <p>Próximamente</p>
+                </div>
+                <div class="text-col">
+                    <a href="https://insuite.vercel.app/">https://insuite.vercel.app/</a>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="icon-col">
+                    <img src="https://inled-group.github.io/mdpdf/MDPDF.png" class="icon-svg">
+                </div>
+                <div class="text-col">
+                    <a href="https://mdpdf.inled.es/">https://mdpdf.inled.es/</a>
+                </div>
+                <div class="text-col">
+                    <a href="https://inled-group.github.io/mdpdf/">https://inled-group.github.io/mdpdf/</a>
+                </div>
+                <div class="text-col">
+                    <a href="https://mdpdf.vercel.app/">https://mdpdf.vercel.app/</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="icon-col">
+                    <img src="https://inled-group.github.io/indoc/INDOC.png" class="icon-svg">
+                </div>
+                <div class="text-col">
+                    <a href="https://indoc.inled.es/">https://indoc.inled.es/</a>
+                </div>
+                <div class="text-col">
+                    <a href="https://inled-group.github.io/indoc/">https://inled-group.github.io/indoc/</a>
+                </div>
+                <div class="text-col">
+                    <a href="https://indoc-inled.vercel.app/">https://indoc-inled.vercel.app/</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="icon-col">
+                    <img src="https://inled-group.github.io/inmd/inMD.png" class="icon-svg">
+                </div>
+                <div class="text-col">
+                    <a href="https://inmd.inled.es/">https://inmd.inled.es/</a>
+                </div>
+                <div class="text-col">
+                    <a href="https://inled-group.github.io/inmd/">https://inled-group.github.io/inmd/</a>
+                </div>
+                <div class="text-col">
+                    <a href="https://inmd.vercel.app/">https://inmd.vercel.app/</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="icon-col">
+                    <img src="https://inled-group.github.io/inlinked/favicon.ico" class="icon-svg">
+                </div>
+                <div class="text-col">
+                    <a href="https://inlinked.inled.es/">https://inlinked.inled.es/</a>
+                </div>
+                <div class="text-col">
+                    <a href="https://inled-group.github.io/inlinked/">https://inled-group.github.io/inlinked/</a>
+                </div>
+                <div class="text-col">
+                    <a href="https://inlinked.vercel.app/">https://inlinked.vercel.app/</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="icon-col">
+                   <img src="https://inled-group.github.io/inqr/inqr.png" class="icon-svg">
+                </div>
+                <div class="text-col">
+                    <a href="https://inqr.inled.es/">https://inqr.inled.es/</a>
+                </div>
+                <div class="text-col">
+                    <a href="https://inled-group.github.io/inqr/">https://inled-group.github.io/inqr/</a>
+                </div>
+                <div class="text-col">
+                    <a href="https://inqr.vercel.app/">https://inqr.vercel.app/</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="icon-col">
+                    <img src="https://inpdf.vercel.app/favicon.ico" class="icon-svg">
+                </div>
+                <div class="text-col">
+                    <a href="https://inpdf.inled.es/">https://inpdf.inled.es/</a>
+                </div>
+                <div class="text-col">
+                    <p>Próximamente</p>
+                </div>
+                <div class="text-col">
+                    <a href="https://inpdf.vercel.app/">https://inpdf.vercel.app/</a>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="icon-col">
+                    <img src="https://devreka.vercel.app/favicon.ico" class="icon-svg">
+                </div>
+                <div class="text-col">
+                    <a href="http://devreka.inled.es/">http://devreka.inled.es/</a>
+                </div>
+                <div class="text-col">
+                    <p>Próximamente</p>
+                </div>
+                <div class="text-col">
+                    <a href="https://devreka.vercel.app/">https://devreka.vercel.app/</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="icon-col">
+                    <img src="https://inled-group.github.io/matrixwww/favicon.ico" class="icon-svg">
+                </div>
+                <div class="text-col">
+                    <a href="https://matrix-www.inled.es/">https://matrix-www.inled.es/</a>
+                </div>
+                <div class="text-col">
+                    <a href="https://inled-group.github.io/matrixwww/">https://inled-group.github.io/matrixwww/</a>
+                </div>
+                <div class="text-col">
+                    <a href="https://matrixwww.vercel.app/">https://matrixwww.vercel.app/</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
